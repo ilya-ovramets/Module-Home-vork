@@ -222,4 +222,8 @@ print("10",len(text))
 
 Формат вывода
 Выведите ответ на задачу.
-
+x = input("Введите строку:")
+if x.count("f") == 1:
+    print(x.find('f'))
+elif x.count('f') >= 2:
+    print(x.find('f'), x.rfind('f'))
